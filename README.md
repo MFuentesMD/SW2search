@@ -19,5 +19,5 @@ Compara precios, revisa el stock y avisa por **correo a marcelofuentes@me.com**,
 ## Ajustes rápidos
 Para cambiar los umbrales, la frecuencia o pausar la tarea, pídeselo a Claude en esta sesión. La tarea está en claude.ai/code → Scheduled tasks.
 
-## Pendiente: conectar Gmail a la tarea
-La tarea se creó sin el conector de Gmail. Para que envíe correos, edita la tarea en claude.ai/code → Scheduled tasks y agrega el conector **Gmail**. Mientras no lo tenga, cada corrida entrega sus hallazgos por notificación push (en la línea que empieza con "SIN GMAIL:").
+## Conector Gmail
+El conector Gmail ya está agregado a la tarea (6-nov-2026). Si alguna corrida no puede usarlo, entrega sus hallazgos por notificación push (en la línea que empieza con "SIN GMAIL:").
