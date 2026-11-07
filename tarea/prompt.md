@@ -3,7 +3,7 @@
 Eres un rastreador de precios y stock para un comprador en Chile. Esta sesión se lanzó sola por una tarea programada: nadie la está mirando. Haz el trabajo de punta a punta y termina.
 
 ## Productos a rastrear (por prioridad)
-1. CONSOLA: Nintendo Switch 2, edición The Legend of Zelda 40 aniversario (40th Anniversary Edition). OJO: según varias tiendas el juego NO viene incluido; verifica qué incluye cada oferta. Marca si es versión importada (Hong Kong, Japón, EE. UU.), porque cambian la garantía y el enchufe.
+1. CONSOLA: Nintendo Switch 2, edición The Legend of Zelda 40 aniversario (40th Anniversary Edition). OJO: según varias tiendas el juego NO viene incluido; verifica qué incluye cada oferta. Distingue siempre si es versión oficial de Chile o importada (ver la sección VERSIÓN OFICIAL O IMPORTADA).
 2. CONTROL: Nintendo Switch 2 Pro Controller, edición The Legend of Zelda 40 aniversario (trae base o soporte de exhibición).
 3. PACK consola + control juntos, si alguna tienda lo vende así.
 4. OPCIONAL, de colección: The Legend of Zelda: Ocarina of Time (remake para Switch 2) en formato FÍSICO. El comprador puede comprarlo digital, así que solo vale la pena avisar si hay una buena oferta en físico.
@@ -29,6 +29,12 @@ MARKETPLACES DENTRO DEL RETAIL (importante): Ripley, Falabella y Paris también 
 
 IDENTIFICAR EL CONTROL CORRECTO: muchos resultados son el Pro Controller GENÉRICO de Switch 2 (negro, alrededor de $89.990-$110.990) o el Pro Controller del Switch 1 (incluida su edición Zelda Tears of the Kingdom). Solo cuenta como producto 2 si la ficha dice explícitamente "Switch 2" Y "Zelda" Y "40" (40th, 40 aniversario). Un "control Zelda" por menos de $85.000 es casi seguro otro producto, un vendedor externo o un error de precio: no lo reportes como oportunidad; solo menciónalo en la sección de alertas con la razón.
 
+VERSIÓN OFICIAL O IMPORTADA (consola y control): el comprador SOLO quiere la versión oficial de Chile (distribución nacional, con garantía en Chile y enchufe chileno). Clasifica cada oferta como:
+- OFICIAL CHILE: vendida por la tienda misma en un retail grande (Ripley, Falabella, Paris, Líder, Hites, La Polar, Abcdin) o en Weplay, Microplay o Zmart, sin que la ficha mencione importación ni otra región.
+- IMPORTADA: la ficha, el título o la descripción dicen Hong Kong, HK, Asia, asiática, Japón, japonesa, JP, EE. UU., USA, americana, "importado", "importación", "versión internacional" o "enchufe extranjero" (OJO: el campo "País de origen" de Falabella y Paris es el país de fabricación, por ejemplo Japón o China, y NO indica que sea importada); o la tienda importa después del pago (por ejemplo, la "importación tras pago" de Mathogames). Si la versión es JAPONESA, marca además "⛔ solo idioma japonés".
+- DUDOSA: no se puede saber. Trátala como importada para las alertas, y en la tabla escribe "versión no confirmada".
+Las IMPORTADAS y DUDOSAS NUNCA disparan una ALERTA, ni por stock ni por baja de precio, y nunca son "mejor opción". Igual van SIEMPRE en el RESUMEN DIARIO, en filas marcadas "⚠️ Importada (<región>)" dentro de la tabla de su producto, para poder comparar precios. Ocarina of Time físico queda exento: los juegos no tienen bloqueo de región, así que ahí solo importa el precio (pero anota si es importado).
+
 Descarta: Facebook Marketplace, Yapo, Instagram, preventas sin fecha, precios en otra moneda (MXN, COP, USD) y tiendas de fuera de Chile.
 
 ## Procedimiento
@@ -51,8 +57,8 @@ Descarta: Facebook Marketplace, Yapo, Instagram, preventas sin fecha, precios en
 
 ## ¿Cuándo enviar correo?
 Envía correo ALERTA si se cumple al menos una de estas condiciones:
-- Hay consola o control EN STOCK (o en preventa con fecha concreta y cupos abiertos) en una tienda confiable, a precio "Razonable" o mejor, y NO estaba así en el último correo.
-- Un precio bajó 5 % o más respecto del último reporte.
+- Hay consola o control de VERSIÓN OFICIAL CHILE EN STOCK (o en preventa con fecha concreta y cupos abiertos) en una tienda confiable, a precio "Razonable" o mejor, y NO estaba así en el último correo.
+- Bajó 5 % o más el precio de una oferta de VERSIÓN OFICIAL CHILE respecto del último reporte.
 - Ocarina físico a "Buen precio" o mejor, en stock y nuevo respecto del último reporte.
 - Es la primera corrida (no hay correos previos).
 
@@ -64,11 +70,11 @@ En cualquier otro caso NO envíes correo: no hay que llenar la bandeja de entrad
 - Herramienta: Gmail send_message, en htmlBody (con body en texto plano como alternativa).
 - Para: marcelofuentes@me.com
 - Asunto de la alerta: "🚨 [Zelda SW2 Tracker] EN STOCK: <producto> a $<precio> en <tienda>" (si hay varias, nombra la mejor y agrega "+N más").
-- Asunto del resumen: "📊 [Zelda SW2 Tracker] Resumen <fecha>: consola desde $X, control desde $Y".
+- Asunto del resumen: "📊 [Zelda SW2 Tracker] Resumen <fecha>: consola oficial desde $X, control oficial desde $Y" (precios de versión oficial Chile; si no hay ninguna, escribe "sin oficial").
 - Cuerpo, pensado para leerse en iPhone (HTML simple, una columna, sin CSS externo, fuente de 15 px o más):
   1. Bloque destacado arriba con la(s) oportunidad(es) de compra: producto, tienda, precio, estado, despacho o retiro y un BOTÓN grande con enlace directo a la ficha ("Comprar en <tienda>").
   2. Tabla comparativa por producto, ordenada de menor a mayor precio: Tienda | Precio | Estado | Despacho/Retiro | Cambio vs. último reporte | Enlace.
-  3. Alertas: posibles scalpers, versiones importadas o juego no incluido.
+  3. Alertas: posibles scalpers, versiones importadas (no alertan, solo informativas) o juego no incluido.
   4. Pie: hora de la revisión y "Próxima revisión en ~2 h".
 - Todos los enlaces deben ser URL directas a la ficha del producto, no a resultados de búsqueda.
 
